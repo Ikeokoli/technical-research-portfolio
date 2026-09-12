@@ -58,6 +58,4 @@ This command is offline and does not collect data from SearchApi.
 
 ## Editorial and research provenance
 
-These are newly prepared, AI-assisted portfolio samples. AI assisted with drafting, implementation, and review; the scripts were executed and the reported results checked against retained outputs. They do not claim prior publication, unaided authorship, production deployment, or hands-on evaluation of untested third-party tools.
-
-The articles are tailored to the [SearchApi Technical Researcher / Writer role](https://jobs.ashbyhq.com/searchapi/5202d0e3-e0c4-4a77-82e2-a8982f270de3). The repository keeps the distinction between implemented behavior, measured observations, and proposed extensions visible.
+These are newly prepared, AI-assisted portfolio samples. AI assisted with drafting, implementation, and review; the scripts were executed and the reported results checked against retained outputs. They do not claim prior publication, unaided authorship, production deployment, or hands-on evaluation of untested third-party tools. The repository keeps the distinction between implemented behaviour, measured observations, and proposed extensions visible.
