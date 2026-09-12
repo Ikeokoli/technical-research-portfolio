@@ -1,6 +1,6 @@
 # Technical research portfolio
 
-Two technical articles with executable Python, retained inputs, measured outputs, and explicit limits.
+Technical articles with executable Python, retained inputs, measured outputs, and explicit limits.
 
 | Read the article | Inspect the evidence |
 |---|---|
