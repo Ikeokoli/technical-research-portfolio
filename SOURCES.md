@@ -1,6 +1,6 @@
 # Source notes
 
-Primary sources checked on 12 September 2026. These sources support design context and documented behavior; experiment results come from this repository's retained data.
+Primary sources checked on 12 August 2026. These sources support design context and documented behaviour; experiment results come from this repository's retained data.
 
 | Source | Used for |
 |---|---|
