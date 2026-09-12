@@ -1,0 +1,37 @@
+{
+  "started_at_utc": "2026-09-12T12:09:57.941451+00:00",
+  "finished_at_utc": "2026-09-12T12:10:12.061102+00:00",
+  "experiment": "controlled loopback HTTP; injected faults, no external provider",
+  "python": "3.12.14",
+  "os": "Windows",
+  "os_release": "11",
+  "architecture": "AMD64",
+  "profiles": {
+    "fast_fragile": {
+      "usable": 80,
+      "empty": 5,
+      "http_error": 5,
+      "timeout": 10,
+      "delay_s": 0.002
+    },
+    "steady": {
+      "usable": 98,
+      "empty": 0,
+      "http_error": 2,
+      "timeout": 0,
+      "delay_s": 0.008
+    }
+  },
+  "seed": 20260912,
+  "blocks": 3,
+  "requests_per_profile_per_block": 100,
+  "warmups_per_profile": 5,
+  "client_concurrency": 1,
+  "connection_policy": "new TCP connection per attempt",
+  "retries": 0,
+  "socket_timeout_s": 0.15,
+  "useful_result_deadline_ms": 120.0,
+  "clock": "QueryPerformanceCounter()",
+  "benchmark_sha256": "3848dd0929b5a15dc0f939a81e2d0e346382e5982b44570a03f5141edd6797c7",
+  "raw_sha256": "13f2ae13c7561c828485b9b7d325910addc5f65765b3b1b99585f1adfaa8f6a9"
+}

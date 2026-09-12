@@ -1,0 +1,19 @@
+{
+  "data_kind": "Authored synthetic fixtures, not captured SearchApi responses",
+  "fixture_sha256": "77de14c635f46343bf0e3ac41d09980dfe10e04d561f180d6f7f429cea6ad1af",
+  "case_count": 7,
+  "expectation_checks": 14,
+  "checks_passed": 14,
+  "mixed_input_rows": 15,
+  "mixed_candidates": 6,
+  "mixed_dispositions": {
+    "keep": 6,
+    "duplicate": 2,
+    "reject": 7
+  },
+  "mixed_rejection_reasons": {
+    "missing_title": 1,
+    "invalid_url": 5,
+    "not_object": 1
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "aggregate": {
+    "fast_fragile": {
+      "attempts": 300,
+      "http_200": 255,
+      "usable": 240,
+      "usable_within_deadline": 240,
+      "useful_result_rate_pct": 80.0,
+      "usable_p50_ms": 6.3496,
+      "usable_p95_ms": 28.7815,
+      "usable_p99_ms": 56.0196,
+      "all_attempt_p95_ms": 161.5286,
+      "outcomes": {
+        "usable": 240,
+        "timeout": 30,
+        "unusable_payload": 15,
+        "http_error": 15
+      },
+      "deadline_sweep_pct": {
+        "10": 54.333333333333336,
+        "20": 66.66666666666667,
+        "50": 79.0,
+        "120": 80.0
+      }
+    },
+    "steady": {
+      "attempts": 300,
+      "http_200": 294,
+      "usable": 294,
+      "usable_within_deadline": 294,
+      "useful_result_rate_pct": 98.0,
+      "usable_p50_ms": 12.239,
+      "usable_p95_ms": 35.4437,
+      "usable_p99_ms": 58.1833,
+      "all_attempt_p95_ms": 35.2656,
+      "outcomes": {
+        "usable": 294,
+        "http_error": 6
+      },
+      "deadline_sweep_pct": {
+        "10": 2.0,
+        "20": 66.66666666666667,
+        "50": 96.66666666666667,
+        "120": 98.0
+      }
+    }
+  },
+  "by_block": {
+    "1": {
+      "fast_fragile": {
+        "attempts": 100,
+        "http_200": 85,
+        "usable": 80,
+        "usable_within_deadline": 80,
+        "useful_result_rate_pct": 80.0,
+        "usable_p50_ms": 5.0957,
+        "usable_p95_ms": 26.4072,
+        "usable_p99_ms": 62.6682,
+        "all_attempt_p95_ms": 161.2235,
+        "outcomes": {
+          "usable": 80,
+          "timeout": 10,
+          "unusable_payload": 5,
+          "http_error": 5
+        },
+        "deadline_sweep_pct": {
+          "10": 61.0,
+          "20": 71.0,
+          "50": 79.0,
+          "120": 80.0
+        }
+      },
+      "steady": {
+        "attempts": 100,
+        "http_200": 98,
+        "usable": 98,
+        "usable_within_deadline": 98,
+        "useful_result_rate_pct": 98.0,
+        "usable_p50_ms": 11.1376,
+        "usable_p95_ms": 34.6357,
+        "usable_p99_ms": 39.0178,
+        "all_attempt_p95_ms": 34.0988,
+        "outcomes": {
+          "usable": 98,
+          "http_error": 2
+        },
+        "deadline_sweep_pct": {
+          "10": 2.0,
+          "20": 80.0,
+          "50": 98.0,
+          "120": 98.0
+        }
+      }
+    },
+    "2": {
+      "fast_fragile": {
+        "attempts": 100,
+        "http_200": 85,
+        "usable": 80,
+        "usable_within_deadline": 80,
+        "useful_result_rate_pct": 80.0,
+        "usable_p50_ms": 6.6585,
+        "usable_p95_ms": 27.0301,
+        "usable_p99_ms": 79.1121,
+        "all_attempt_p95_ms": 159.2506,
+        "outcomes": {
+          "usable": 80,
+          "unusable_payload": 5,
+          "timeout": 10,
+          "http_error": 5
+        },
+        "deadline_sweep_pct": {
+          "10": 50.0,
+          "20": 65.0,
+          "50": 79.0,
+          "120": 80.0
+        }
+      },
+      "steady": {
+        "attempts": 100,
+        "http_200": 98,
+        "usable": 98,
+        "usable_within_deadline": 98,
+        "useful_result_rate_pct": 98.0,
+        "usable_p50_ms": 13.3029,
+        "usable_p95_ms": 35.9472,
+        "usable_p99_ms": 103.1513,
+        "all_attempt_p95_ms": 35.2656,
+        "outcomes": {
+          "usable": 98,
+          "http_error": 2
+        },
+        "deadline_sweep_pct": {
+          "10": 3.0,
+          "20": 61.0,
+          "50": 95.0,
+          "120": 98.0
+        }
+      }
+    },
+    "3": {
+      "fast_fragile": {
+        "attempts": 100,
+        "http_200": 85,
+        "usable": 80,
+        "usable_within_deadline": 80,
+        "useful_result_rate_pct": 80.0,
+        "usable_p50_ms": 7.4541,
+        "usable_p95_ms": 30.3111,
+        "usable_p99_ms": 56.0196,
+        "all_attempt_p95_ms": 164.0843,
+        "outcomes": {
+          "usable": 80,
+          "timeout": 10,
+          "http_error": 5,
+          "unusable_payload": 5
+        },
+        "deadline_sweep_pct": {
+          "10": 52.0,
+          "20": 64.0,
+          "50": 79.0,
+          "120": 80.0
+        }
+      },
+      "steady": {
+        "attempts": 100,
+        "http_200": 98,
+        "usable": 98,
+        "usable_within_deadline": 98,
+        "useful_result_rate_pct": 98.0,
+        "usable_p50_ms": 14.0792,
+        "usable_p95_ms": 35.7952,
+        "usable_p99_ms": 91.7562,
+        "all_attempt_p95_ms": 35.5376,
+        "outcomes": {
+          "usable": 98,
+          "http_error": 2
+        },
+        "deadline_sweep_pct": {
+          "10": 1.0,
+          "20": 59.0,
+          "50": 97.0,
+          "120": 98.0
+        }
+      }
+    }
+  }
+}
