@@ -1,6 +1,6 @@
 # When a faster API delivers fewer useful results
 
-*Ikechukwu Charles Okoli · Technical research portfolio · 12 September 2026*
+*Ikechukwu Charles Okoli · Technical research portfolio ·  August 2026*
 
 A search API can finish quickly and still leave an application with nothing it can use. That distinction disappears easily in a comparison table: sort providers by median response time, highlight the smallest number, and call it a recommendation.
 
