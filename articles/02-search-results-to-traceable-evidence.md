@@ -1,6 +1,6 @@
 # From search results to traceable evidence: building the boundary before the model
 
-*Ikechukwu Charles Okoli · Technical research portfolio · 12 September 2026*
+*Ikechukwu Charles Okoli · Technical research portfolio · July 2026*
 
 An AI research workflow can lose the evidence behind an answer before a language model sees it. A common starting point is to take every search-result snippet, join the strings, and pass the resulting paragraph to a model.
 
