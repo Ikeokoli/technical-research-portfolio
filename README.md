@@ -7,7 +7,7 @@ Two technical articles with executable Python, retained inputs, measured outputs
 | [When a faster API delivers fewer useful results](articles/01-api-benchmarks-that-count-failures.md) | [600 measured HTTP attempts](results/benchmark-2026-09-12/attempts.jsonl) · [runner](src/benchmark.py) · [analysis](src/analyze.py) |
 | [From search results to traceable evidence](articles/02-search-results-to-traceable-evidence.md) | [authored fixtures](data/evidence_cases.json) · [adapter](src/evidence.py) · [row-level audit](results/evidence-2026-09-12/candidates.json) |
 
-**Author portfolio:** [Ikechukwu Charles Okoli](https://github.com/Ikeokoli). Created 12 September 2026.
+**Author portfolio:** [Ikechukwu Charles Okoli](https://github.com/Ikeokoli). August 2026.
 
 ## Findings you can reproduce
 
